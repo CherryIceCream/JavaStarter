@@ -1,8 +1,18 @@
 package Lesson4;
 
+import java.util.Scanner;
+
 public class test5 {
    public static void main(String[] args) {
-       int z = 5;
+
+       Scanner in = new Scanner(System.in);
+       System.out.print("Input a number: ");
+       int z = in.nextInt();
+
+       System.out.printf("Your number: %d \n", z);
+       in.close();
+
+
        int a1 = z*1;
        int a2 = z*2;
        int a3 = z*3;
