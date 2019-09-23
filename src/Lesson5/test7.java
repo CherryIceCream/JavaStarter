@@ -20,7 +20,8 @@ public class test7 {
             case Z:
                 a1 = "Данное значение имеется в константах";
             break;
-            default: a1 = "Такой константы нет!";
+            default:
+                a1 = "Такой константы нет!";
             break;
         }
         System.out.println(a1);
