@@ -20,6 +20,8 @@ public class test10 {
                 Scanner in3 = new Scanner(System.in);
                 mat[i1][i2] = in3.nextInt();
             }
-        }   System.out.print(Arrays.deepToString(mat));
+        }   for (int i = 0; i <m; i++) {
+            System.out.print(mat[0][i]*3 + " ");
+        }
     }
 }
